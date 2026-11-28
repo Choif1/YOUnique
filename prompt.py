@@ -86,7 +86,6 @@ def prompt_generate(client, url, request):
             }
         ]
     ).output_text
-    print(analyzations["matching_race"])
 
     # 프롬프트 작성
     prompt = client.responses.create(

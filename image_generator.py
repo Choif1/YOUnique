@@ -25,4 +25,4 @@ def image_generate(client, url, request):
         with open("profile.png", "wb") as f:
             f.write(base64.b64decode(image_base64))
             
-image_generate(client=client, url="https://cdn.discordapp.com/attachments/1452278739512725514/1574288207422427260/17951930023271.png?ex=6b0519a5&is=6b03c825&hm=b727fd7f9a887abc27f692f9c4e6d6638bbc19f63438217324ade7b63f75bb54&", request="Round Glass")
+image_generate(client=client, url="https://cdn.discordapp.com/attachments/1452278739512725514/1574288207422427260/17951930023271.png?ex=6b0519a5&is=6b03c825&hm=b727fd7f9a887abc27f692f9c4e6d6638bbc19f63438217324ade7b63f75bb54&", request="")
