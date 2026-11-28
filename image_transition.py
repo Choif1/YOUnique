@@ -1,7 +1,6 @@
 import torch
 from diffusers import StableDiffusionXLImg2ImgPipeline
 from io import BytesIO
-from PIL import Image
 
 pipe = StableDiffusionXLImg2ImgPipeline.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0",
